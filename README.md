@@ -19,6 +19,6 @@
 
 В качестве построения нейроной сети, взял модель Keras Sequental API. В Jupiter Notebook, есть раздел описывающий подбор параметров. При выборе параметров, опирался на статьи, документацию и эксперименты с параметрами, чтобы добиться лучшего значения (время - AUC).
 
-![ROC curve](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/image/image.png)
+![ROC curve](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/ROC.png)
 
 При построении ROC curve, параметры предсказания из результатов задания (sample_submission.csv), брался за истиные значения и сравнивался с моими значениями.
