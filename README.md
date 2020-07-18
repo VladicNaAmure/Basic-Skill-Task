@@ -15,11 +15,13 @@
 
 # Основные решения
 
-Препроцессинг заключался, в исключении значений NaN, +-inf из датасета, путем удаления столбцов (если количество NaN больше на 5%, чем строк тренировочного и тестового датасета), а также строк. P.S. Способ о сохранении всех строк (описан в коде), будет произведён позже если останется время после докера!
+Препроцессинг заключался, в исключении значений NaN, +-inf из датасета, путем замены на значения близким к 0 в решение пакпки (kaggel) и удаление столбцов (если количество NaN больше на 5%, чем строк тренировочного и тестового датасета), а также строк в решение папки (expirement).
 
 В качестве построения нейронной сети, взял модель Keras Sequental API. В Jupiter Notebook, есть раздел, описывающий подбор параметров, размер нейронной сети и количества эпох. При выборе параметров, опирался на статьи, документацию и эксперименты с параметрами, чтобы добиться лучшего значения (время - AUC).
 
-![ROC curve](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/ROC.png)
+Сообственно в репозитории два решения. Одно решения для тестового задания в Kaggel, второе решение Experiment с препроцессингом данных и подбором гиперпараметров. Графики представлены для решения Kaggel.
+
+![ROC curve](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/ROC_Kaggel.png)
 
 При построении ROC curve, параметры предсказания из результатов задания (sample_submission.csv), брался за истинные значения и сравнивался с моими значениями.
 
@@ -27,12 +29,12 @@
 
 Сравнение ROC-AUC и F1 score, для разных моделей задач бинарной классификации.
 
-![Сравнение моделей](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/models_compare.png)
+![Сравнение моделей](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/models_kaggel.png)
 
 P.S. Если быстро разберусь с докером, возможно проведу эксперимент на обучение еще одной сложной модели для бинарной классификации.
 
 Визуализация некоторых параметров из истории обучения модели keras.
 
-![accuracy_loss](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/accuracy_loss.png)
+![accuracy_loss](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/accuracy_loss_Kaggel.png)
 
-![f1_score](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/f1_score.png)
+![f1_score](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/f1_score_Kaggel.png)
