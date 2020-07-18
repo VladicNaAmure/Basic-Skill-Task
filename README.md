@@ -27,6 +27,14 @@
 
 Сравнение ROC-AUC и F1 score, для разных моделей задач бинарной классификации.
 
-![Сравнение моделей](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/1e1swas.png)
+![Сравнение моделей](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/models_compare.png)
 
 P.S. Если быстро разберусь с докером, возможно проведу эксперимент на обучение еще одной сложной модели для бинарной классификации.
+
+Визуализация некоторых параметров из истории обучения модели keras.
+
+![accuracy](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/accuracy.png)
+
+![loss](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/loss.png)
+
+![f1_score](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/f1_score.png)
