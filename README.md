@@ -33,6 +33,6 @@ P.S. Если быстро разберусь с докером, возможн�
 
 Визуализация некоторых параметров из истории обучения модели keras.
 
-![accuracy_loss](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/accuracy.png)
+![accuracy_loss](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/accuracy_loss.png)
 
 ![f1_score](https://github.com/VladicNaAmure/Insilico-Medicine/raw/master/images/f1_score.png)
