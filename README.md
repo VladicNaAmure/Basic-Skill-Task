@@ -39,7 +39,11 @@
 
 --------------------------
 Источники по Docker:
+
 [1] https://www.docker.com
+
 [2] https://www.dmosk.ru/miniinstruktions.php?mini=docker-self-image
+
 [3] https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+
 [4] https://medium.com/@andreimaksimov/how-to-run-jupiter-keras-tensorflow-pandas-sklearn-and-matplotlib-in-docker-container-35a49fd4b175
