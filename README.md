@@ -46,7 +46,7 @@
 
 P.S. Загружаются следующие библиотеки: numpy, pandas, sklearn, matplotlib, seaborn, jupyter, pyyaml, h5py, keras, tensorflow
 
-3. Перенести Jupiter Notebook из kaggel (GitHub) в созданую докером директорию kaggel.
+3. Перенести Jupiter Notebook из kaggel (GitHub) в созданую докером директорию kaggel, также как и необработанный датасет skill-task2.zip.
 
 4. Перейдем в директорию kaggel, % mkdir kaggel
 
