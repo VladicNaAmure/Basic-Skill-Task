@@ -42,18 +42,20 @@
 
 1. Открыть директорию Docker, % cd {DIRECTORY}
 
-2. Построим свой контейнер, % docker build -f Dockerfile -t {NAME_CONTAINER} . 
+2. Сделаь файл исполняемым, chmod +x run_jupyter.sh
+
+3. Построим свой контейнер, % docker build -f Dockerfile -t {NAME_CONTAINER} . 
 
 P.S. Загружаются следующие библиотеки: numpy, pandas, sklearn, matplotlib, seaborn, jupyter, pyyaml, h5py, keras, tensorflow
 
-3. Перенести Jupiter Notebook из kaggel (GitHub) в созданую докером директорию kaggel, также как и необработанный датасет skill-task2.zip.
+4. Перенести Jupiter Notebook из kaggel (GitHub) в созданую докером директорию kaggel, также как и необработанный датасет skill-task2.zip.
 
-4. Перейдем в директорию kaggel, % mkdir kaggel
+5. Перейдем в директорию kaggel, % mkdir kaggel
 
-5. Запуск контейнера, % docker run -it -p 8888:8888 -p 6006:6006 -d -v
+6. Запуск контейнера, % docker run -it -p 8888:8888 -p 6006:6006 -d -v
 % (pwd)/kaggel:/kaggel {NAME_CONTAINER}
 
-6. Порты открыты, запускаем по ссылки в бразуере со своим токеном, и открываем Presprocessing_Kaggel.ipynb для распаковки и обработки датасета, далее открываем для тренировки модели, итд, Models_Kaggel.ipynb 
+7. Порты открыты, запускаем по ссылки в бразуере со своим токеном, и открываем Presprocessing_Kaggel.ipynb для распаковки и обработки датасета, далее открываем для тренировки модели, итд, Models_Kaggel.ipynb 
 
 Источники по Docker:
 
